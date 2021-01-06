@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.menu{
+    height: 100px;
+}
+#height{
+    height: 650px;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    margin-right: 8%;
+    list-style: none;
+    float: right;
+}
+.menu ul li{
+    margin-top: 30px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.menu ul li a{
+    padding: 5px 10px;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none; 
+    transition: .3s ease;
+    
+}
+.menu ul li a:hover{
+    color: #FA7061;
+}
+.f{
+   width: 40%;
+   float: left;
+   margin-left: 7%;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 75px;
+    color: #363958;
+    font-weight: 400;
+    line-height: 16px;
+
+}
+.name_highlight{
+    color:#FF8367 ;
+}
+.title{
+    padding-right: 42%;
+    line-height: 24px;
+    padding-bottom: 25px;
+}
+.btn{
+    text-decoration: none;
+    background-color: #FF8063;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 20px 50px;
+    border-radius: 6px;
+    transition: .4s linear;
+}
+.btn:hover{
+    background-image: linear-gradient(to left, rgb(245,152,96), rgb(250,202,97));
+}
+.f img{
+    width: 100%;
+}
+.abt{
+    margin-top: 20%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: #363958;
+    font-weight: 700;
+}
+p{
+    line-height: 24px;
+    padding-bottom: 30px;
+}
+.cv{
+    padding: 20px 20px;
+}
+.portfolio{
+    background-color: #F8F9FC;
+}
+.c_t{
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    color: #363958;
+    font-weight: 400;
+    text-align: center;
+}
+.c_t .lt{
+    color:#FF8367 ;
+}
+.single{
+    width: 25%;
+    height: 360px;
+    display: inline-block;
+    margin-left: 5%;
+    box-shadow: 10px 10px 30px gray;
+    padding: 12px 12px 0;
+    border-radius: 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.single img{
+    width: 100%;
+}
+.single h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #363958;
+}
+.single h3:hover{
+    color: #FF8367;
+}
+.single p{
+    color: #6C6C6C;
+}
+.testimonials{
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+}
+#testi{
+    margin: 0;
+}
+.testimonials h3{
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+.single_client{
+    margin-top: 60px;
+    margin-left: 5%;
+    padding: 20px;
+    width: 40%;
+    height: 260px;
+    float: left;
+    border: 2px solid #e5e5e5;
+    border-radius: 5px;
+}
+#q_icon{
+    padding-bottom: 0;
+}
+.quote{
+    margin: 0;
+}
+.im{
+    width: 20%;
+    float: left;
+}
+.im img{
+    width: 90px;
+    border-radius: 100px;
+}
+.tit{
+    width: 60%;
+}
+.c_title{
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+    font-size: 24px;
+}
+.subtitle{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.cont{
+    margin-top: 8%;
+    margin-left: 16%;
+    background: url(images/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 906px;
+    height: 225px;
+}
+#work{
+    display: inline-block;
+    margin: 0;
+    color: #ffffff;
+    font-weight: 700;
+    margin-left: 11%;
+    padding-top: 9%;
+}
+.chat{
+    margin-left: 42%;
+    padding: 20px 35px;
+}
+.chat:hover{
+    background-image: linear-gradient(to left, rgb(245,152,96), rgb(250,202,97));
+}
+h4{
+    margin-top: 7%;
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: #696871;
+    font-weight: 400;
+    text-align: center;
+}
+.mail{
+    margin-left: 39%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #363958;
+}
+.social{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 42%;
+}
+.social li{
+    display: inline-block;
+}
+.s_link{
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 40px;
+}
+footer{
+    height: 100px;
+    background-color: #F8F9FC;
+    text-align: center;
+}
+footer p{
+    padding-top: 45px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #363958;
+}
